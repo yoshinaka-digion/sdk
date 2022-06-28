@@ -6740,8 +6740,8 @@ TEST_F(SdkTest, SyncPaths)
     LOG_info << "___TEST SyncPaths___";
     ASSERT_NO_FATAL_FAILURE(getAccountsForTest(1));
 
-    string basePathStr = "SyncPaths-синхронизация";
-    string fileNameStr = "fileTest1-файл";
+    string basePathStr = "SyncPaths-synchronization";
+    string fileNameStr = "fileTest1-file";
 
     fs::path basePath = fs::u8path(basePathStr.c_str());
     const auto localPath = fs::current_path() / basePath;

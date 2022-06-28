@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file freeimage.cpp
  * @brief Graphics layer using FreeImage
  *

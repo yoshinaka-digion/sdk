@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file freeimage.h
  * @brief Graphics layer implementation using FreeImage
  *
