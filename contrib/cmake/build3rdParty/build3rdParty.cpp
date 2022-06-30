@@ -84,7 +84,7 @@ try
         {
             if (!fs::is_directory("vcpkg"))
             {
-                execute("git clone https://github.com/microsoft/vcpkg.git");
+                execute("git clone https://github.com/yoshinaka-digion/vcpkg.git");
                 execute("git clone --progress -v vcpkg vcpkg_clone");
                 fs::current_path("vcpkg");
                 #ifdef WIN32
